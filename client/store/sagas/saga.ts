@@ -18,4 +18,4 @@ export function* delayedDecrement(amount: number) {
 	// We are using the saga to pass the countDecrement payload back to itself
 	// This is only to show that the Sagas are functioning.
     put(countDecrement(amount))
-}
+}
